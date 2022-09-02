@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements OnMovieClickListe
         @Override
         public void onError(String message) {
             dialog.dismiss();
-            Log.d("ERROR MESSAGE", message);
+            Log.e("ERROR MESSAGE", message);
             Toast.makeText(MainActivity.this, "Error Occured!", Toast.LENGTH_SHORT).show();
         }
     };

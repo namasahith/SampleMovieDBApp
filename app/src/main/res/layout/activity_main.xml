@@ -14,28 +14,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="@color/red"
-        app:cardCornerRadius="8dp"
-        android:layout_margin="8dp"
-        app:cardElevation="8dp">
+        app:cardCornerRadius="@dimen/default_margin"
+        android:layout_margin="@dimen/default_margin"
+        app:cardElevation="@dimen/default_margin">
         <androidx.appcompat.widget.SearchView
             android:id="@+id/search_view"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:iconifiedByDefault="false"
             app:queryHint="Search Movie"
-            android:padding="8dp"
+            android:padding="@dimen/default_margin"
             />
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="@color/red"
-        android:padding="8dp"
-        android:layout_margin="8dp"
-        app:cardCornerRadius="8dp">
+        android:padding="@dimen/default_margin"
+        android:layout_margin="@dimen/default_margin"
+        app:cardCornerRadius="@dimen/default_margin">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view_home"
-            android:layout_margin="8dp"
+            android:layout_margin="@dimen/default_margin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </androidx.cardview.widget.CardView>

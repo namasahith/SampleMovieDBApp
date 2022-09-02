@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">MovieDB</string>
     <string name="movie_name">Movie Name</string>
+    <string name="cast">Cast</string>
+    <string name="year_released">Year Released :</string>
+    <string name="runtime">Runtime :</string>
+    <string name="actors">Actors</string>
+    <string name="movie_plot">Movie Plot</string>
+    <string name="ratings">Ratings</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="source">Source</string>
+    <string name="rating">Rating</string>
 </resources>
